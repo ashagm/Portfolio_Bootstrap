@@ -1,0 +1,125 @@
+html,
+body {	
+	position: relative;
+	min-height: 100%;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	padding-bottom: 50px;
+}
+
+/*#wrapper{
+	position: relative;
+	display: flex;  
+  	min-height: 100vh;
+  	flex-direction: column;
+}*/
+
+.navbar-custom-header{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #fff;
+	padding: 0;
+	width: 960px;
+}
+
+.navbar-custom-name{
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 32px;
+	padding: 10px;
+}
+
+.navbar-custom-links li{
+	padding: 0px 15px;
+	font-weight: bolder;
+}
+
+.main-content{	
+	background: url('../images/bg_img.png');
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	border-top: 1px solid #ccc;
+	/*overflow: auto;*/
+  	/*flex: 1;*/
+}
+
+.main-custom-content{
+	width: 968px;
+	height: 100%;
+	margin:0;
+	padding:0;
+}
+
+.aboutme-content{
+	width: 650px;
+	padding:0;
+}
+
+.aboutme-img{
+	float: left;
+	padding-right: 10px;	
+}
+
+.connect-logo{
+	width: 60px;
+	height: 60px;
+}
+
+.connect-content{
+	width: 270px;
+}
+
+.card-custom-header{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	margin:0;
+	padding:0;
+}
+
+.card-custom-body button{
+	background-color: #4aaaa5;
+	color: #fff;
+}
+
+.port-pic{
+	margin: 5px 5px 10px 0px;
+	position: relative;
+}
+
+.port-pic:hover
+{
+	-moz-box-shadow: 0 0 10px red;
+	-webkit-box-shadow: 0 0 10px red;
+	box-shadow: 0 0 20px red;
+}
+
+.port-pic-label{
+	position: absolute;
+	background-color: #4aaaa5;
+	color: #fff;
+	font-size: 20px;
+	bottom: 20px;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+.port-img{
+	border: 2px solid #000;
+}
+
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding: 20px;
+   background-color: #777;
+   color: #ccc;
+   text-align: center;
+   border-top: 10px solid #4aaaa5;
+}

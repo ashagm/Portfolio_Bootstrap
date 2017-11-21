@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap Portfolio</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0/js/bootstrap.min.js"></script>
+
+	<!-- Custom stylesheet -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<div id="wrapper">
+<nav class="navbar navbar-toggleable-md navbar-light navbar-custom-header mx-auto">
+	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<a class="navbar-brand navbar-custom-name text-white" href="#">Asha Tad</a>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav ml-auto navbar-custom-links">
+			<li class="nav-item">
+			<a class="nav-link" href="index.html">About</a>
+			</li>
+			<li class="nav-item">
+			<a class="nav-link" href="contact.html">Contact</a>
+			</li>
+			<li class="nav-item">
+			<a class="nav-link" href="portfolio.html">Portfolio</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<div class="container mx-auto main-content">
+	<div class="row mx-auto my-3 main-custom-content">
+		<div class="col-md-8 aboutme-content">
+			<div class="card">
+				<div class="card-header card-custom-header px-3 py-2">Contact</div>
+				<div class="card-body card-custom-body text-justify">
+					<div class="row px-3 py-3">
+						<div class="col-md-12">
+						<form>
+							<div class="form-group">
+								<label for="inputName">Name</label>
+								<input type="name" class="form-control" id="exampleInputPassword1" placeholder="Enter name">
+							</div>
+							<div class="form-group">
+								<label for="inputEmail">Email </label>
+								<input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+							</div>
+							<div class="form-group">
+								<label for="inputMessage">Message</label>
+								<textarea name="message" class="form-control" id="inputMessage" rows="5" cols="30"></textarea>
+							</div>
+							<button type="submit" class="btn btn-default">Submit</button>
+						</form>		
+							
+						</div>									
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 connect-content">
+			<div class="card">
+				<div class="card-header card-custom-header px-3 py-2">Connect with me</div>
+				<div class="card-body px-3 py-3">
+					<a href="https://github.com/" target="_blank">
+					<img src="assets/images/github.png" alt="github" class="connect-logo"/></a>
+					<a href="https://stackoverflow.com/" target="_blank">
+					<img src="assets/images/stack.png" alt="stack" class="connect-logo"/></a>
+					<a href="https://www.linkedin.com/" target="_blank">
+					<img src="assets/images/linkedin.png" alt="linkedin" class="connect-logo"/></a>				
+				</div>
+			</div>
+		</div>
+	</div>		 
+</div>
+
+<footer class="footer">
+	Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2017 Asha Tad
+</footer>
+</div>
+</body>
+</html>
