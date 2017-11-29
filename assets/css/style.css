@@ -10,7 +10,7 @@ body {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	background-color: #fff;
 	padding: 0;
-	width: 960px;
+	width: 968px;
 }
 
 .navbar-custom-name{
@@ -37,7 +37,7 @@ body {
 	width: 100%;
 	height: 100%;
 	border-top: 1px solid #ccc;
-	padding-bottom: 11%;
+	padding-bottom: 15%;
 	/*overflow: auto;*/
   	/*flex: 1;*/
 }
@@ -47,10 +47,13 @@ body {
 	height: 100%;
 	margin:0;
 	padding:0;
+
+   /* justify-content: center;
+    display: flex; */
 }
 
 .aboutme-content{
-	width: 650px;
+	/*width: 650px;*/
 	padding:0;
 }
 
@@ -65,7 +68,7 @@ body {
 }
 
 .connect-content{
-	width: 270px;
+	/*width: 270px;*/
 }
 
 .card-custom-header{
@@ -87,6 +90,7 @@ body {
 .port-pic{
 	margin: 5px 5px 10px 0px;
 	position: relative;
+	border: 2px solid #4aaaa5;
 }
 
 .port-pic:hover
@@ -107,10 +111,6 @@ body {
 	text-align: center;
 }
 
-.port-img{
-	border: 2px solid #4aaaa5;
-}
-
 .footer {
    position: absolute;
    left: 0;
@@ -124,10 +124,11 @@ body {
 }
 
 
+
 @media only screen and (max-width: 768px) {
 
 	.navbar-custom-header{
-		width: 750px;
+		width: 100%;
 	}
 
 	.connect-content{
@@ -135,8 +136,18 @@ body {
 		padding: 0;
 	}
 
-	.port-img{
-		width: 600px;
-		height: 200px;
+	.port-pic img {
+		width: 100%;
+		height: 300px;
 	}
+
+}
+
+@media only screen and (max-width: 576px) {
+/*hack to resolve col-6/col-6 issue*/
+	.connect-content{
+		margin-left: 1px; 
+		padding: 0;
+	}
+
 }
