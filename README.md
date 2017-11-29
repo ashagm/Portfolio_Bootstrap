@@ -1,2 +1,2 @@
 # Portfolio_Bootstrap
-A basic portfolio layout using Bootstrap, CSS3
+A sample portfolio layout using Bootstrap4, CSS3
