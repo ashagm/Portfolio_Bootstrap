@@ -13,6 +13,10 @@ body {
 	width: 968px;
 }
 
+.navbar-custom-header button.navbar-toggler{
+	border: 1px solid #fff;
+}
+
 .navbar-custom-name{
 	background-color: #4aaaa5;
 	color: white;
@@ -29,6 +33,7 @@ body {
 .navbar-custom-links-div ul li:first-child:before { content: none; }
 .navbar-custom-links-div .navbar-custom-links .nav-link:hover { color: #4aaaa5; }
 
+
 .main-content{	
 	background: url('../images/bg_img.png');
 	background-repeat: no-repeat;
@@ -38,8 +43,6 @@ body {
 	height: 100%;
 	border-top: 1px solid #ccc;
 	padding-bottom: 15%;
-	/*overflow: auto;*/
-  	/*flex: 1;*/
 }
 
 .main-custom-content{
@@ -47,9 +50,6 @@ body {
 	height: 100%;
 	margin:0;
 	padding:0;
-
-   /* justify-content: center;
-    display: flex; */
 }
 
 .aboutme-content{
@@ -124,7 +124,6 @@ body {
 }
 
 
-
 @media only screen and (max-width: 768px) {
 
 	.navbar-custom-header{
@@ -145,7 +144,7 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
-/*hack to resolve col-6/col-6 issue*/
+/*temporary hack to resolve col-6/col-6 issue in mobile view */
 	.connect-content{
 		margin-left: 1px; 
 		padding: 0;
